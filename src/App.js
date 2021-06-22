@@ -11,7 +11,7 @@ function App() {
       <ul className="socials">
         {generalInfo.socials.map(network => (
           <li className="socials__item">
-            <a className="socials__link" target="_blank" href={network.link} title={network.titleOnHover}>
+            <a className="socials__link" target="_blank" rel="noreferrer" href={network.link} title={network.titleOnHover}>
               <img className="socials__icon" src={network.icon} alt={network.altText} />
             </a>
           </li>

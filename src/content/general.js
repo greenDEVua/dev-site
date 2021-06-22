@@ -3,7 +3,7 @@ import youtube from '../assets/images/socials/youtube.svg'
 import twitter from '../assets/images/socials/twitter.svg'
 import instagram from '../assets/images/socials/instagram.svg'
 
-export default {
+const general = {
   name: 'Green DEV',
   logoAltText: 'Green logotype with DEV text on the center',
   socials: [
@@ -44,3 +44,5 @@ export default {
     // },
   ],
 }
+
+export default general;
